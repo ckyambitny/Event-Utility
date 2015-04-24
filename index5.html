@@ -1,39 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8" />
-	<title></title>
-	<style type="text/css">
-		.normal{
-			background-color: Gray;
-			color: Black;
-		}
-		.changed{
-			background-color: Black;
-			color: White;
-		}
-		.blue{
-			background-color: Blue;
-			color:Red;
-		}
-		.red{
-			background-color: Red;
-			color:Blue;
-		}
-	</style>
-	
+    <meta charset="utf-8"/>
+    <title>Test events</title>
+    <style type="text/css">
+        .normal {
+            background-color: Gray;
+            color: Black;
+        }
 
+        .changed {
+            background-color: Black;
+            color: White;
+        }
+
+        .blue {
+            background-color: Blue;
+            color: Red;
+        }
+
+        .red {
+            background-color: Red;
+            color: Blue;
+        }
+    </style>
 </head>
 <body>
-	<h1>Hello, events</h1>
-	<p>La dee daah</p>
-	<a href="http://www.google.pl">GOTO google</a> <br/>
-	<button  data-body-class="blue" >Blue</button>
-	<button  data-body-class="red" >Red</button>
-	<br/>
-	<a data-body-class="normal" href="#" target="_blank">Change to Gray/B</a>
-	<a  data-body-class="changed" href="http://www.google.com" target="_blank">Change to Blck/w</a>
-	<script type="text/javascript" src="eventUtility.js"></script>
-	<script type="text/javascript" src="5.js"></script>
+    <h1>Hello, events</h1>
+
+    <p>La dee daah</p>
+    <a href="http://www.google.pl">GOTO google</a> <br/>
+    <button data-body-class="blue">Blue</button>
+    <button data-body-class="red">Red</button>
+
+    <br/>
+
+    <a data-body-class="normal" href="#" target="_blank">Change to Gray/B</a>
+    <a data-body-class="changed" href="http://www.google.com" target="_blank">Change to Black/w</a>
+
+    <script type="text/javascript" src="eventUtility.js"></script>
+    <script type="text/javascript" src="5.js"></script>
 </body>
 </html>
